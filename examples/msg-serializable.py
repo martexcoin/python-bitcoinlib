@@ -21,7 +21,8 @@ if sys.version_info.major < 3:
 from bitcoin import SelectParams
 from bitcoin.messages import msg_version, msg_tx, msg_block
 
-SelectParams('mainnet')
+#SelectParams('mainnet')
+SelectParams('testnet')
 
 
 for c in [msg_version, msg_tx, msg_block]:
