@@ -16,7 +16,7 @@ setup(name='python-bitcoinlib',
       classifiers=[
           "Programming Language :: Python",
       ],
-      url='https://github.com/petertodd/python-bitcoinlib',
+      url='https://github.com/martexcoin/python-bitcoinlib',
       keywords='bitcoin',
       packages=find_packages(),
       zip_safe=False,
