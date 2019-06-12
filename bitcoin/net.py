@@ -22,7 +22,7 @@ from bitcoin.core.serialize import (
 )
 from bitcoin.core import b2lx
 
-PROTO_VERSION = 60002
+PROTO_VERSION = 70210
 CADDR_TIME_VERSION = 31402
 
 class CAddress(Serializable):

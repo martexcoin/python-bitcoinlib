@@ -15,8 +15,8 @@ import bitcoin.core
 
 class MainParams(bitcoin.core.CoreChainParams):
     MESSAGE_START = b'\x2d\x3f\xa2\xf5'
-    DEFAULT_PORT = 51324
-    RPC_PORT = 51325
+    DEFAULT_PORT = 51314
+    RPC_PORT = 51315
     DNS_SEEDS = (('martexcoin.org', 'seed.martexcoin.org'),
                  ('martexcoin.org', 'seed1.martexcoin.org'),
                  ('martexcoin.org', 'seed2.martexcoin.org'),
@@ -29,8 +29,8 @@ class MainParams(bitcoin.core.CoreChainParams):
 """
 class TestNetParams(bitcoin.core.CoreTestNetParams):
     MESSAGE_START = b'\x70\x35\x22\x05'
-    DEFAULT_PORT = 41324
-    RPC_PORT = 41325
+    DEFAULT_PORT = 41314
+    RPC_PORT = 41315
     DNS_SEEDS = (('martexcoin.org', 'seed.martexcoin.org'),
                  ('martexcoin.org', 'seed1.martexcoin.org'),
                  ('martexcoin.org', 'seed2.martexcoin.org'),
